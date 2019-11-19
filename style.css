@@ -1,8 +1,97 @@
+/* ============== UNIVERSAL SETUP ============ */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
-/* 583px = min browser width (webkit)*/
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/* ====== TEXT STYLING ======== */
+
+/* ============= */
 .logo {
     height: 60px;
     width: auto;
     float: left;
     margin-top: 14px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+
+}
+.box {
+    padding: 1%
+}
+
+/* HERO --------------------------- */
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-40%);
+    color: #fff;
+
+}
+
+.hero-text-box h1 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    letter-spacing: .7px;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/final/images/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* ===== WHY TRAVEL W TREVA ======== */
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+.section-features h2 {
+    text-align: center;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 500;
+}
+
+.section-features p {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.section-features h2:after {
+    display: block;
+    height: 2px;
+    background-color: #f2a03d;
+    content: " ";
+    width: 100px;
+    margin:0 auto;
+    margin-top: 30px;
 }
